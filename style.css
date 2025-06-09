@@ -1,0 +1,61 @@
+* {
+        font-family: poppins;
+    }
+
+    header {
+        background-color: #32292f;
+        color: #e0f1f5;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        box-shadow: 3px 3px 5px;
+        border-radius: 10px;
+        font-size: 30px;
+    }
+    header img{
+        width: 50px;
+    }
+
+    body {
+        background-color: #e0f1f5;
+        background-image: url(worldmap.png);
+        background-position: center;
+        background-size:cover;
+    }
+
+    .container {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container .box {
+        background-color: #e0f1f5;
+        width: 60vw;
+        color: #32292f;
+        height:auto;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px;
+        text-align: center;
+    }
+
+    .box h1 {
+        font-weight: 300;
+    }
+
+    #time {
+        font-weight: bold;
+    }
+
+    #timezoneSelector {
+        background-color: #32292f;
+        color: #e0f1f5;
+        height: 30px;
+        width: 200px;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 15px;
+    }

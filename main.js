@@ -5,12 +5,12 @@
         function updateTime() {
             setInterval(() => {
                 const timezone = document.getElementById('timezoneSelector').value;
-                a = new Intl.DateTimeFormat('en-US', {
+                a = new Intl.DateTimeFormat('en-GB', {
                     timeZone: timezone,
                     timeStyle: 'medium',
                     hour12: true
                 }).format(time);
-                b = new Intl.DateTimeFormat('en-US', {
+                b = new Intl.DateTimeFormat('en-GB', {
                     weekday: 'long',
                     year: 'numeric',
                     month: 'long',

@@ -45,6 +45,10 @@
     .box h1 {
         font-weight: 300;
     }
+.box p{
+margin-left:5px;
+margin-right:5px;
+}
 
     #time {
         font-weight: bold;

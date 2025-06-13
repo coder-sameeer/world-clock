@@ -68,3 +68,8 @@ margin-right:5px;
 margin-top:20%;
 }
 }
+@media (max-width:768px){
+.container .box{
+width:80vw;
+}
+}
